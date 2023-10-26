@@ -3,8 +3,27 @@ import React from 'react';
 function Container() {
   return (
     <div className="container">
-      <h1>Bienvenido a mi sitio web</h1>
-      <p>Este es el contenido del sitio.</p>
+      <div className='parent'>
+        <div className='card'>
+        <li>Ranking Nro 1</li>
+        </div>
+        <div className='card'>
+        <li>Ranking Nro 2</li>
+        </div>
+        <div className='card'>
+        <li>Ranking Nro 3</li>
+        </div>
+        <div className='card'>
+        <li>Ranking Nro 4</li>
+        </div>
+        <div className='card'>
+        <li>Ranking Nro 5</li>
+        </div>
+        <div className='card'>
+        <li>Ranking Nro 6</li>
+        </div>
+
+     </div>
     </div>
   );
 }
