@@ -16,7 +16,10 @@ export const Data = () => {
 
   return (
     <div>
-    {empresa1[0] + "----Produccion TOTAL: " + empresa1[1] + "---Piezas OK: " + empresa1[2] + "---Cant Piezas con falla: " + empresa1[3] + "---Piezas OK: %" + empresa1[4] + "---Piezas falladas: %" + empresa1[5]}
+       <div className='card'>
+        <li>    {empresa1[0] + "----Produccion TOTAL: " + empresa1[1] + "---Piezas OK: " + empresa1[2] + "---Cant Piezas con falla: " + empresa1[3] + "---Piezas OK: %" + empresa1[4] + "---Piezas falladas: %" + empresa1[5]}
+</li>
+        </div>
     </div>
   )
 }
