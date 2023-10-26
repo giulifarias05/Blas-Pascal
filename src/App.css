@@ -4,10 +4,10 @@
   min-height: 100vh; 
 }
 body{
-  background-color: #1E1E1E;
+  background-color: #ffffff;
 }
 .navbar {
-  background-color:#f5f0f0;
+  background-color:#524d4d;
   color:#fff;
   padding: 10px;
   display: flex;
@@ -63,11 +63,13 @@ img{
 }
 
 .footer {
+  margin-top: 0;
   background-color: #2d2d2d;
   color: #fff;
   text-align: center;
   padding: 10px;
 }
+
 @media screen and (max-width: 768px) {
   .navbar ul {
     flex-direction: column;
@@ -87,7 +89,7 @@ img{
   border: none;
   cursor: pointer;
   border: 5px;
-background-color: transparent;
+  background-color: transparent;
 }
 .dropbtn img{
   width: 30px;

@@ -22,7 +22,6 @@ function Container() {
         <div className='card'>
         <li>Ranking Nro 6</li>
         </div>
-
      </div>
     </div>
   );
